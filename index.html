@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Firya Faturahman - Tugas 3 - Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- navbar section -->
+
+    <nav class="navbar">
+      <div class="logo">
+        <a href="#">web simple portfolio</a>
+      </div>
+      <ul class="links">
+        <li><a href="home">home</a></li>
+        <li><a href="about">about</a></li>
+        <li><a href="services">services</a></li>
+        <li><a href="contact">contact</a></li>
+      </ul>
+      <button href="#" class="action_btn">get started</button>
+      <div class="toggle_btn"><i class="fa-solid fa-bars"></i></div>
+    </nav>
+
+    <!-- dropdown menu -->
+    <div class="dropdown_menu">
+      <li><a href="home">home</a></li>
+      <li><a href="about">about</a></li>
+      <li><a href="services">services</a></li>
+      <li><a href="contact">contact</a></li>
+      <li><button href="#" class="action_btn">get started</button></li>
+    </div>
+    <!-- navbar end section -->
+
+    <!-- profile section -->
+    <section class="container">
+      <div class="profile-card">
+        <div class="profile-image">
+          <img src="./assets/hacktiv8.png" alt="profile photo" />
+        </div>
+        <div class="profile-details">
+          <div class="profile-intro">
+            <h2>Firya Faturahman</h2>
+            <h4>Front End Developer</h4>
+            <div class="social">
+              <a href="https://www.instagram.com/firyafatur/" target="_blank">
+                <i class="fa-brands fa-instagram fa-2xl"></i>
+              </a>
+              <a href="https://github.com/firyafaturahman" target="_blank">
+                <i class="fa-brands fa-github fa-2xl"></i>
+              </a>
+            </div>
+          </div>
+          <div class="info">
+            <div class="row">
+              <div class="icon">
+                <i
+                  class="fa-solid fa-business-time"
+                  style="color: rgb(207, 154, 54)"></i>
+              </div>
+              <div class="content">
+                <span>Availability</span>
+                <h5>Full Time</h5>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="icon">
+                <i
+                  class="fa-solid fa-calendar-days"
+                  style="color: rgb(207, 154, 54)"></i>
+              </div>
+              <div class="content">
+                <span>Age</span>
+                <h5>32 years</h5>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="icon">
+                <i
+                  class="fa-solid fa-map-marker-alt"
+                  style="color: rgb(207, 154, 54)"></i>
+              </div>
+              <div class="content">
+                <span>Location</span>
+                <h5>Jakarta, Indonesia</h5>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="icon">
+                <i
+                  class="fa-solid fa-users"
+                  style="color: rgb(207, 154, 54)"></i>
+              </div>
+              <div class="content">
+                <span>Experience</span>
+                <h5>2 years</h5>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="icon">
+                <i
+                  class="fa-solid fa-envelope-open"
+                  style="color: rgb(207, 154, 54)"></i>
+              </div>
+              <div class="content">
+                <span>Email</span>
+                <h5>fe-dev@dev.com</h5>
+              </div>
+            </div>
+
+            <div class="container-btn">
+              <button class="download-btn">Download CV</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- form section -->
+      <section class="form">
+        <form action="return false">
+          <div>
+            <label for="nama">Full Name or Nick Name</label>
+            <br />
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="input your name" />
+          </div>
+          <div>
+            <label for="role">Role</label>
+            <br />
+            <input
+              type="text"
+              name="role"
+              id="role"
+              placeholder="input your role" />
+          </div>
+          <div>
+            <label for="age">Age</label>
+            <br />
+            <input
+              type="text"
+              name="age"
+              id="age"
+              placeholder="input your age" />
+          </div>
+          <div>
+            <label for="location">Location</label>
+            <br />
+            <input
+              type="text"
+              name="location"
+              id="location"
+              placeholder="input your location" />
+          </div>
+          <div>
+            <label for="experience">Year Experience</label>
+            <br />
+            <input
+              type="text"
+              name="experience"
+              id="experience"
+              placeholder="input your experience" />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <br />
+            <input
+              type="text"
+              name="email"
+              id="email"
+              placeholder="input your email" />
+          </div>
+          <button type="submit" value="SUBMIT">submit</button>
+        </form>
+      </section>
+      <!-- form end section -->
+    </section>
+    <!-- profile end section -->
+
+    <script src="./js/scripts.js"></script>
+  </body>
+</html>
